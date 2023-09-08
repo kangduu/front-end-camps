@@ -1,27 +1,27 @@
 ---
 home: true
-layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: /logo.png
-heroText: 前端集训营
-heroFullScreen: true
-tagline: 少年！你相信光吗？
+# layout: BlogHome
+# heroImage: /profile.jpg
+# heroText: 前端集训营
+# heroFullScreen: true
+# tagline: 少年！你相信光吗？
 projects:
-  # - icon: project
-  #   name: 项目名称
-  #   desc: 项目详细描述
-  #   link: https://你的项目链接
+  - icon: project
+    name: 项目名称
+    desc: 项目详细描述
+    link: https://你的项目链接
 
-  # - icon: link
-  #   name: 链接名称
-  #   desc: 链接详细描述
-  #   link: https://链接地址
+  - icon: link
+    name: 链接名称
+    desc: 链接详细描述
+    link: https://链接地址
 
-  # - icon: book
-  #   name: 书籍名称
-  #   desc: 书籍详细描述
-  #   link: https://你的书籍链接
+  - icon: book
+    name: 书籍名称
+    desc: 书籍详细描述
+    link: https://你的书籍链接
 
   # - icon: article
   #   name: 文章名称
@@ -62,10 +62,7 @@ footer: 路漫漫其修远兮，吾将上下而求索.
 
 ## 特别说明
 
-本站的属于个人博客网站，不存在任何商业用途。
-
-本站使用 [VuePress](https://github.com/vuejs/vuepress) 搭建，主题配置
-[vuepress-theme-hope](https://github.com/vuepress-theme-hope/vuepress-theme-hope)
-，特别鸣谢。
-
-本站部分图片等资源均源自互联网，若存在侵权请联系本人删除。
+本站的属于个人博客网站，不存在任何商业用途。本站使用
+[VuePress](https://github.com/vuejs/vuepress) 搭建，主题配
+置[vuepress-theme-hope](https://github.com/vuepress-theme-hope/vuepress-theme-hope)，
+特别鸣谢。本站部分图片等资源均源自互联网，若存在侵权请联系本人删除。

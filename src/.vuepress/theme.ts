@@ -17,7 +17,7 @@ export default hopeTheme({
 
 	logo: '/logo.png',
 
-	// repo: 'vuepress-theme-hope/vuepress-theme-hope',
+	repo: 'https://github.com/kangduu/front-end-camps',
 
 	docsDir: 'src',
 

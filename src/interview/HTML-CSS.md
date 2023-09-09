@@ -1,5 +1,5 @@
 ---
-title: HTML/CSS（持续更新...），温故知新
+title: HTML/CSS
 ---
 
 ### 在HTML中如何做SEO优化？

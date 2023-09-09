@@ -1,5 +1,5 @@
 ---
-title: Webpack（持续更新...）
+title: Webpack
 tags: webpack
 ---
 

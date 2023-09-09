@@ -1,5 +1,5 @@
 ---
-title: jQuery（持续更新...），温故知新
+title: jQuery
 ---
 
 ### $(this)和this关键字在jQuery中有何不同？ 

@@ -1,8 +1,9 @@
 ---
+title: 关于我们
 icon: circle-info
-cover: /assets/images/cover3.jpg
+# cover: /assets/images/cover3.jpg
 ---
 
 # 介绍页
 
-将你的个人介绍和档案放置在此处。
+我们这个团队，好像还没有什么介绍嘞

@@ -1,5 +1,5 @@
 ---
-title: Browser（持续更新...）
+title: Browser
 ---
 
 ### 客户端存储（cookie、localStorage、sessionStorage）

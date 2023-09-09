@@ -1,5 +1,5 @@
 ---
-title: Javascript（ES系列、持续更新...），温故知新
+title: Javascript
 ---
 
 ### JS基本数据类型

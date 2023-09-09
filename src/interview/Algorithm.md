@@ -1,5 +1,5 @@
 ---
-title: Algorithm（持续更新...），温故知新
+title: Algorithm
 ---
 
 ### 手写冒泡排序

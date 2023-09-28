@@ -114,3 +114,11 @@ function fn(name, add) {
 ```
 **注意**： void 返回的都是 undefined 类型
 
+## 为什么 `typeof null === 'object'` ?
+```js
+// JavaScript 诞生以来便如此
+typeof null === 'object';
+```
+
+> 在 JavaScript 最初的实现中，JavaScript 中的值是由一个表示类型的标签和实际数据值表示的。对象的类型标签是 0。由于 null 代表的是空指针（大多数平台下值为 0x00），因此，null 的类型标签是 0，typeof null 也因此返回 "object"。（[参考来源](https://2ality.com/2013/10/typeof-null.html)）
+> 曾有一个 ECMAScript 的修复提案（通过选择性加入的方式），但被拒绝了。该提案会导致 typeof null === 'null'。

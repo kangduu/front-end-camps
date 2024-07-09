@@ -2,42 +2,43 @@
 home: true
 icon: home
 title: 博客·首页
-tagline: ""
-layout: BlogHome
-bgImage: /assets/home.gif
-heroText: ""
-# heroImage: /assets/home.gif
+heroImage: /assets/coding.gif
+# layout: BlogHome
+# bgImage: /assets/coding.gif
+# heroText: "" # 主标题
+# tagline: "" # 副标题
+# heroImage: /assets/home.gif # logo heroImageDark可设置夜间模式
 # heroFullScreen: true
-projects:
-  # - icon: project
-  #   name: 项目名称
-  #   desc: 项目详细描述
-  #   link: https://你的项目链接
 
-  # - icon: link
-  #   name: 链接名称
-  #   desc: 链接详细描述
-  #   link: https://链接地址
+actions:
+  - text: 快速上手
+    link: /zh/get-started/
+    icon: signs-post
+    type: primary
 
-  # - icon: book
-  #   name: 书籍名称
-  #   desc: 书籍详细描述
-  #   link: https://你的书籍链接
+  - text: 指南
+    icon: lightbulb
+    link: /zh/guide/
 
-  # - icon: article
-  #   name: 文章名称
-  #   desc: 文章详细描述
-  #   link: https://你的文章链接
+  - text: 案例
+    icon: star
+    link: /zh/demo/
 
-  # - icon: friend
-  #   name: 伙伴名称
-  #   desc: 伙伴详细介绍
-  #   link: https://你的伙伴链接
+features:
+  - title: Markdown 增强
+    icon: fab fa-markdown
+    details: 新增文字对齐、上下角标、脚注、标记、任务列表、数学公式、流程图、图表与幻灯片支持
+    link: /zh/guide/markdown/
 
-  # - icon: /log.png
-  #   name: 自定义项目
-  #   desc: 自定义详细介绍
-  #   link: https://你的自定义链接
+  - title: 幻灯片页面
+    icon: person-chalkboard
+    details: 添加幻灯片页面以显示你喜欢的内容
+    link: /zh/guide/layout/slides
+
+  - title: 布局增强
+    icon: object-group
+    details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
+    link: /zh/guide/layout/
 
 footer: 路漫漫其修远兮，吾将上下而求索.
 ---

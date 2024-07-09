@@ -2,11 +2,11 @@
 home: true
 icon: home
 title: 博客·首页
-heroImage: /assets/home.png
-tagline: 少年！你相信光吗？
-# layout: BlogHome
-# bgImage: /assets/home.png
-# heroText: 前端集训营
+tagline: ""
+layout: BlogHome
+bgImage: /assets/home.gif
+heroText: ""
+# heroImage: /assets/home.gif
 # heroFullScreen: true
 projects:
   # - icon: project

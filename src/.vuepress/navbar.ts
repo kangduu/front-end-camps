@@ -3,6 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   "/demo/",
+  "/basis/",
   "/interview/",
   // {
   // 	text: '博文·随笔',

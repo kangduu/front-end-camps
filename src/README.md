@@ -1,7 +1,7 @@
 ---
 home: true
 icon: home
-title: 博客·首页
+title: 武门扉
 heroImage: /assets/coding.gif
 heroImageDark: /assets/home.gif
 # layout: BlogHome

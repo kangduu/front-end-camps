@@ -1,7 +1,7 @@
 ---
 home: true
 icon: home
-title: 武门扉
+title: 首页◾武门扉
 heroImage: /assets/coding.gif
 heroImageDark: /assets/home.gif
 # layout: BlogHome
@@ -11,19 +11,15 @@ heroImageDark: /assets/home.gif
 # heroImage: /assets/home.gif # logo heroImageDark可设置夜间模式
 # heroFullScreen: true
 
-# actions:
-#   - text: 快速上手
-#     link: /zh/get-started/
-#     icon: signs-post
-#     type: primary
+actions:
+  - text: 待办事项
+    link: /todo/
+    icon: signs-post
+    type: primary
 
-#   - text: 指南
-#     icon: lightbulb
-#     link: /zh/guide/
-
-#   - text: 案例
-#     icon: star
-#     link: /zh/demo/
+  - text: 漫游指南
+    icon: lightbulb
+    link: /guide/
 
 # features:
 #   - title: Markdown 增强

@@ -6,11 +6,11 @@ export default navbar([
   "/basis/",
   "/interview/",
   {
-    text: "专题💫武研堂",
+    text: "专题◾武研堂",
     icon: "book",
-    link: "/algorithm/",
+    link: "/special/",
     // children: [
-    //   { text: "数据结构", icon: "pen-to-square", link: "cherry" },
+    //   { text: "数据结构与算法", icon: "pen-to-square", link: "cherry" },
     //   { text: "算法", icon: "pen-to-square", link: "dragonfruit" },
     // ],
   },

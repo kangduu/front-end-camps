@@ -8,10 +8,9 @@ export default navbar([
   {
     text: "专题◾武研堂",
     icon: "book",
-    link: "/special/",
-    // children: [
-    //   { text: "数据结构与算法", icon: "pen-to-square", link: "cherry" },
-    //   { text: "算法", icon: "pen-to-square", link: "dragonfruit" },
-    // ],
+    children: [
+      { text: "客户端脚本安全", link: "/special/security/" },
+      { text: "算法", link: "dragonfruit" },
+    ],
   },
 ]);

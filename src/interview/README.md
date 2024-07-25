@@ -1,7 +1,7 @@
 ---
-title: 面试·八股文
+title: 笔面◾试炼海
 index: false
-icon: laptop-code
+icon: book-reader
 ---
 
 ### GitHub Issues
@@ -23,21 +23,21 @@ icon: laptop-code
     const issues = ref([])
 
     const getIssues = async () => {
-    try {
-        const response = await fetch('https://api.github.com/repos/kangduu/front-end-camps/issues');
-        if (!response.ok) {
-        throw new Error('Network response was not ok');
+        try {
+            const response = await fetch('https://api.github.com/repos/kangduu/front-end-camps/issues');
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const data = await response.json();
+            
+            issues.value = data;
+        } catch (error) {
+            console.error('Error fetching issues:', error);
         }
-        const data = await response.json();
-        
-        issues.value = data;
-    } catch (error) {
-        console.error('Error fetching issues:', error);
-    }
     };
 
     onMounted(() => {
-    getIssues();
+        getIssues();
     });
 </script>
 

@@ -1,5 +1,5 @@
 ---
-title: 案例·DEMO
+title: DEMO◾江湖迹
 index: false
 icon: laptop-code
 ---

@@ -28,11 +28,11 @@ features:
     details: 一个分布式版本控制软件
     link: /special/markdown/
 
-  - title: Powershell
-    details: PowerShell（包括Windows PowerShell和PowerShell Core）是微软公司开发的任务自动化和配置管理架构
+  - title: Shell
+    details: 
     link: /special/layout/slides
 
-  - title: Node
+  - title: Node.js
     details: Node.js 是跨平台、开源的 JavaScript 运行环境，可在Windows、Linux、macOS 等操作系统上运行。Node.js 由 OpenJS Foundation 持有和维护，亦为Linux 基金会的项目
     link: /special/layout/
 

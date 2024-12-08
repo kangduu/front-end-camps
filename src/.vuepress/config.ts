@@ -5,7 +5,7 @@ export default defineUserConfig({
   base: "/front-end-camps/",
   lang: "zh-CN",
   title: "杜同学日记",
-  description: "新时代农民工",
+  description: "路漫漫其修远兮，吾将上下而求索",
   theme,
   // Enable it with pwa
   // shouldPrefetch: false,

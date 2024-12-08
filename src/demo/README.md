@@ -1,7 +1,7 @@
 ---
-title: DEMO◾江湖迹
+title: DEMO
 index: false
-icon: laptop-code
+icon: fas fa-laptop-code
 ---
 
 ### UI 布局系列

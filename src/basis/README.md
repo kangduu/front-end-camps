@@ -1,4 +1,4 @@
 ---
-title: 基础◾武启蒙
-icon: plug
+title: 基础
+icon: fas fa-book
 ---

@@ -1,5 +1,5 @@
 ---
-title: 笔面◾试炼海
+title: 笔面试
 index: false
 icon: book-reader
 ---

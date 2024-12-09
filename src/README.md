@@ -14,15 +14,40 @@ heroImageDark: /assets/home.gif
 actions:
   - text: 待办事项
     link: /todo/
-    icon: signs-post
+    icon: solar:checklist-bold
     type: primary
 
   - text: 我的收藏
-    icon: star
+    icon: solar:stars-bold
     link: /favorites/
     type: primary
 
 features:
+  - title: Nest
+    details: Nest (NestJS) 是一个用于构建高效、可扩展的Node.js服务器端应用程序的框架
+    icon: logos:nestjs
+    link: /nest
+
+  - title: Next
+    details: Next.js 是一个用于构建全栈 Web 应用程序的 React 框架
+    icon: logos:nextjs-icon
+    link: /next
+
+  - title: TypeScript
+    details: TypeScript 是一种强类型的编程语言，基于 JavaScript 构建，无论项目规模如何，都能为你提供更强大的开发工具
+    icon: logos:typescript-icon
+    link: /typescript
+
+  - title: Node
+    details: Node.js 是一个免费、开源、跨平台的 JavaScript 运行时环境，可让开发人员创建服务器、Web 应用程序、命令行工具和脚本。
+    icon: logos:nodejs-icon
+    link: /node
+
+  - title: React
+    details: 用于构建 Web 和原生交互界面的库
+    icon: logos:react
+    link: /react
+
   - title: Git
     details: 一个分布式版本控制软件
     icon: logos:git-icon
@@ -33,11 +58,6 @@ features:
     icon: file-icons:powershell
     link: /shell
 
-  - title: Node.js
-    details: Node.js 是跨平台、开源的 JavaScript 运行环境，可在Windows、Linux、macOS 等操作系统上运行。
-    icon: logos:nodejs-icon
-    link: /node
-
   - title: Linux
     details: Linux是一种自由和开放源码的类UNIX操作系统
     icon: logos:linux-tux
@@ -46,7 +66,12 @@ features:
 footer: 路漫漫其修远兮，吾将上下而求索
 ---
 
-### 文档编写快捷操作
+### 微信开发
+
+- [jsSDK | 微信开发文档](https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/JS-SDK.html)
+- [微信开发官方文档](https://developers.weixin.qq.com/doc/)
+
+### 站点图标库
 
 - [Fontawesome Free](https://fontawesome.com/search?q=home&o=r&m=free)
 - [Iconify](https://icon-sets.iconify.design/)

@@ -1,7 +1,7 @@
 ---
 title: 笔面试
 index: false
-icon: book-reader
+icon: tabler:file-pencil
 ---
 
 ### GitHub Issues

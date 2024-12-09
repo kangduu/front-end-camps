@@ -1,6 +1,6 @@
 ---
 title: Safety
-icon: fas fa-shield-halved
+icon: tabler:shield-half-filled
 ---
 
 ### 浏览器安全

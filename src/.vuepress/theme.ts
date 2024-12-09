@@ -13,7 +13,9 @@ export default hopeTheme({
     url: "https://github.com/kangduu",
   },
 
-  iconAssets: "fontawesome",
+  iconAssets: "iconify",
+  // iconAssets: "fontawesome-with-brands",
+  // iconAssets: "fontawesome",
 
   logo: "/logo.png",
 

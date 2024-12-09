@@ -1,3 +1,8 @@
+---
+title: Shell
+icon: fas fa-terminal
+---
+
 ## 学习资源
 
 ### 文档

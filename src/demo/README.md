@@ -1,7 +1,7 @@
 ---
 title: DEMO
 index: false
-icon: fas fa-laptop-code
+icon: tabler:test-pipe
 ---
 
 ### UI 布局系列

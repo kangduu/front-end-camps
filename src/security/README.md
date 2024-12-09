@@ -1,5 +1,6 @@
 ---
-title: 客户端脚本安全
+title: Safety
+icon: fas fa-shield-halved
 ---
 
 ### 浏览器安全

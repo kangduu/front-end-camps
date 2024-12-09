@@ -1,7 +1,7 @@
 ---
 home: true
-icon: home
-title: 首页◾武门扉
+icon: fas fa-house
+title: 首页
 heroImage: /assets/coding.gif
 heroImageDark: /assets/home.gif
 # layout: BlogHome
@@ -41,6 +41,10 @@ features:
 
 footer: 路漫漫其修远兮，吾将上下而求索
 ---
+
+### 文档编写快捷操作
+
+- [Fontawesome Free](https://fontawesome.com/search?q=home&o=r&m=free)
 
 ### 特别说明
 

@@ -24,7 +24,7 @@ icon: tabler:file-pencil
 
     const getIssues = async () => {
         try {
-            const response = await fetch('https://api.github.com/repos/kangduu/front-end-camps/issues');
+            const response = await fetch('https://api.github.com/repos/kangduu/camps/issues');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }

@@ -16,7 +16,6 @@ icon: tabler:file-pencil
 
 <script setup>
     import { h, ref, onMounted } from 'vue'
-
     const RedDiv = (_, ctx) =>
     h('div',{ class:'issues' },ctx.slots.default())
 
@@ -24,7 +23,8 @@ icon: tabler:file-pencil
 
     const getIssues = async () => {
         try {
-            const response = await fetch('https://api.github.com/repos/kangduu/camps/issues');
+            // https://api.github.com/repos/{owner}/{repository}/issues?milestone=&state=&assignee=&creator=&mentioned=&labels=&sort=&direction=&since=&per_page=&page=
+            const response = await fetch('https://api.github.com/repos/kangduu/camps/issues?state=open&sort=updated');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }

@@ -2,8 +2,39 @@
 title: 待办事项
 ---
 
-- [ ] [客户端脚本安全相关文章编写](./special/security/)
+<RedDiv>
+    <ul>
+        <li v-for="issue in issues" :key="issue.id">
+            <a :href="issue.html_url" target="_blank">{{ issue.title }}</a>
+            <pre>{{ issue.body }}</pre>
+        </li>
+    </ul>
 
-- [ ] [命令行操作学习]()
+</RedDiv>
 
-- [ ] [git 深度学习]()
+<script setup>
+    import { h, ref, onMounted } from 'vue'
+
+    const RedDiv = (_, ctx) =>
+    h('div',{ class:'issues' },ctx.slots.default())
+
+    const issues = ref([])
+
+    const getIssues = async () => {
+        try {
+            const response = await fetch('https://api.github.com/repos/kangduu/camps/issues?labels=todoist&state=open&sort=updated');
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const data = await response.json();
+            
+            issues.value = data;
+        } catch (error) {
+            console.error('Error fetching issues:', error);
+        }
+    };
+
+    onMounted(() => {
+        getIssues();
+    });
+</script>

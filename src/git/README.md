@@ -1,4 +1,4 @@
 ---
 title: Git
-icon: fas fa-code-branch
+icon: logos:git-icon
 ---

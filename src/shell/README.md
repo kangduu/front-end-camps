@@ -1,6 +1,6 @@
 ---
 title: Shell
-icon: fas fa-terminal
+icon: file-icons:powershell
 ---
 
 ## 学习资源

@@ -19,7 +19,7 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
-  repo: "https://github.com/kangduu/front-end-camps",
+  repo: "https://github.com/kangduu/camps",
 
   docsDir: "src",
 
@@ -48,7 +48,7 @@ export default hopeTheme({
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
       // Gitee: "https://example.com",
-      GitHub: "https://github.com/kangduu/front-end-camps",
+      GitHub: "https://github.com/kangduu/camps",
       // Gitlab: "https://example.com",
       // Gmail: "mailto:info@example.com",
       // Instagram: "https://example.com",

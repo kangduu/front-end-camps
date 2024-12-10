@@ -1,7 +1,7 @@
 ---
 home: true
 icon: tabler:home-filled
-title: 首页
+title: Home
 heroImage: /assets/coding.gif
 heroImageDark: /assets/home.gif
 # layout: BlogHome

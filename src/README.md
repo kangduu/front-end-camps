@@ -66,15 +66,19 @@ features:
 footer: 路漫漫其修远兮，吾将上下而求索
 ---
 
-### 微信开发
+### WeChat Development
 
 - [jsSDK | 微信开发文档](https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/JS-SDK.html)
 - [微信开发官方文档](https://developers.weixin.qq.com/doc/)
 
-### 站点图标库
+### Local Site Icon Library
 
 - [Fontawesome Free](https://fontawesome.com/search?q=home&o=r&m=free)
 - [Iconify](https://icon-sets.iconify.design/)
+
+### Tutorial Docs
+
+- [Markdown](https://markdown.com.cn/)
 
 ### 特别说明
 
